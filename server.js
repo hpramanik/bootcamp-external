@@ -25,6 +25,7 @@ var request = require('request');
 // create the server
 const app = express();
 
+console.log("Log added");
 // set up handlbars as the templating engine
 app.set('view engine', 'hbs');
 app.engine('hbs', hbs({
